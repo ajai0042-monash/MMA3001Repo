@@ -1,0 +1,1 @@
+My notes: Found git pull interesting, merge conflicts seem difficult.

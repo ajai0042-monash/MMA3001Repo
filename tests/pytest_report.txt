@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-8.4.2, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content/MMA3001_Project
+plugins: cov-7.1.0, platformdirs-4.13.5, anyio-4.15.1, typeguard-4.6.0, langsmith-0.14.11
+collecting ... collected 10 items
+
+tests/test_modules.py::test_synthetic_data_shape PASSED                  [ 10%]
+tests/test_modules.py::test_single_gap_creation PASSED                   [ 20%]
+tests/test_modules.py::test_linear_fills_all_gaps PASSED                 [ 30%]
+tests/test_modules.py::test_pchip_matches_endpoints PASSED               [ 40%]
+tests/test_modules.py::test_cubic_spline_fills_all_gaps PASSED           [ 50%]
+tests/test_modules.py::test_metrics_perfect_prediction PASSED            [ 60%]
+tests/test_modules.py::test_metrics_mae_calculation PASSED               [ 70%]
+tests/test_modules.py::test_degree_hours_below_threshold PASSED          [ 80%]
+tests/test_modules.py::test_time_function_returns_timing PASSED          [ 90%]
+tests/test_modules.py::test_flops_estimate_scales_with_input PASSED      [100%]
+
+============================== 10 passed in 2.10s ==============================
